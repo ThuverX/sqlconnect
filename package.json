@@ -1,0 +1,14 @@
+{
+  "name": "sqlconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --pretty",
+    "watch": "tsc -w --pretty",
+    "start": "node build/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
